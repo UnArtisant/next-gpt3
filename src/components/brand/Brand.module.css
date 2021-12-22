@@ -1,0 +1,8 @@
+.brand {
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 120px;
+    max-width: 150px;
+}

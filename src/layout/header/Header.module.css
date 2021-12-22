@@ -21,12 +21,64 @@
     width: 152px;
     height: 58px;
     background: #ff4820;
-    border-radius: 5px;
+    border-radius: 0 5px 5px 0;
     color: white;
-
 }
 
 .gpt3__header-email-input {
+    height: 58px;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    outline: none;
+    color: #3d6184;
     background: #052d56;
     border-radius: 5px 0px 0px 5px;
+}
+
+@media screen and (max-width : 650px) {
+    .gpt3__header-heading  {
+        font-size: 48px;
+        line-height: 60px;
+        font-weight: 600;
+    }
+
+    .gpt3__header-description {
+        font-size: 16px;
+        line-height: 20px;
+    
+        color: #81afdd;
+    }
+}
+
+@media screen and (max-width : 490px) {
+
+    .gpt3__header-heading  {
+        font-size: 40px;
+        line-height: 45px;
+        
+    }
+
+    .gpt3__header-description {
+        font-size: 16px;
+        line-height: 18px;
+    
+        color: #81afdd;
+    }
+
+    .gpt3__header-email-btn {
+        background: #ff4820;
+        border-radius: 0 5px 5px 0;
+        color: white;
+    }
+    
+    .gpt3__header-email-input {
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 20px;
+        outline: none;
+        color: #3d6184;
+        background: #052d56;
+        border-radius: 5px 0px 0px 5px;
+    }
 }

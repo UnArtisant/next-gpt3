@@ -1,4 +1,4 @@
-import {Blog, Feature, Footer, Header, Possibiliy, WhatGPT3} from "../layout/index"
+import {Blog, Features, Footer, Header, Possibiliy, WhatGPT3} from "../layout/index"
 import {Navbar, Brand, Cta} from "../components/index"
 import style from "../styles/pages/Home.module.css"
 
@@ -11,7 +11,7 @@ function Home() {
          </div>
          <Brand />
          <WhatGPT3 />
-         <Feature />
+         <Features />
          <Possibiliy />
          <Cta />
          <Blog />
