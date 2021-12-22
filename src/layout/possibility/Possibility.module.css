@@ -1,0 +1,12 @@
+.gpt3__possibility-heading {
+    background: linear-gradient(103.22deg, #ae67fa -13.86%, #f49867 99.55%), linear-gradient(0deg, #ffffff, #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gpt3__possibility-description {
+    font-size: 20px;
+    line-height: 27px;
+
+    color: #81afdd;
+}
