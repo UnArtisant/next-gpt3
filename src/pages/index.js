@@ -15,7 +15,6 @@ function Home() {
          <Possibiliy />
          <Cta />
          <Blog />
-         <Footer />
     </div>
     )
 }

@@ -1,0 +1,8 @@
+.gpt3__blog-heading {
+    background: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 800;
+
+    letter-spacing: -0.04em;
+}
